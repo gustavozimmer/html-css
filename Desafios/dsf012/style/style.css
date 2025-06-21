@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
+
 @font-face {
     font-family: 'persona';
-    src: url(/fontes/personaaura.otf);
+    src: url(../fontes/personaaura.otf);
 }
 
 @font-face {
     font-family: 'notevela';
-    src: url(/fontes/notevela.otf);
+    src: url(../fontes/notevela.otf);
 }
 
 :root{
-    --titulo: 'persona', sans-serif;
-    --cordel: 'notevela', sans-serif;
+    --titulo: "persona", sans-serif;
+    --cordel: "notevela", sans-serif;
 }
 
 header{
@@ -59,7 +60,7 @@ main p{
 }
 
 div#joaninha{
-    background-image: url(/imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -68,7 +69,7 @@ div#joaninha{
 }
 
 div#cartas{
-    background-image: url(/imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
