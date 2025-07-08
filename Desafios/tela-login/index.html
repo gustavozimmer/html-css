@@ -3,42 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login</title>
-    <!-- Apenas um link para a fonte de ícones -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+    <title>Treino de caixas</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
-    <main>
+    <main id="caixa-principal">
         <div id="imagem"></div>
-        <div id="login-config">
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-            <form action="login.php" autocomplete="on" method="post">
-                <p class="caixa-campo">
-                    <label for="iemail">
+        <div id="formulario">
+            <div id="caixa-texto">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+            </div>
+            <form action="login.php">
+                <div id="caixa-pessoa">
+                    <div id="icone-pessoa">
+                        <label for="iemail">
                         <span id="icone-pessoa" class="material-symbols-outlined">person</span>
                     </label>
-                    <input class="campo" type="email" name="email" id="iemail" required placeholder="Seu e-mail">
-                </p>
-                <p class="caixa-campo">
-                     <label for="isenha">
+                    </div>
+                    <div id="email">
+                        <input class="campo" type="email" name="email" id="iemail" required placeholder="Seu e-mail">
+                    </div>
+                </div>
+                <div id="caixa-senha">
+                    <div id="icone-senha">
+                        <label for="isenha">
                         <span id="icone-senha" class="material-symbols-outlined">key</span>
                     </label>
-                    <input class="campo" type="password" name="senha" id="isenha" required placeholder="Sua senha" autocomplete="off">
-                </p>
-                <p>
-                    <div id="box-enviar">
-                        <input type="submit" value="Entrar" id="enviar">
                     </div>
-                </p>
-                <p>
-                    <div id="esqueci-senha">
-                        <a href="#">Esqueci a senha <span id="icone-mail" class="material-symbols-outlined">mail</span></a>
+                    <div id="senha">
+                        <input class="campo" type="password" name="senha" id="isenha" required placeholder="Sua senha" autocomplete="off">
                     </div>
-                </p>
+                </div>
+                <div id="enviar">
+                    <input type="submit" value="Entrar" id="botao-enviar">
+                </div>
             </form>
+            <div id="recup-senha">
+                    <a href="#">
+                        <div id="botao-recup-senha">
+                        Esqueci a senha <span id="icone-mail" class="material-symbols-outlined">mail</span></div>
+                    </a>
+            </div>
         </div>
-    </main>    
+    </main>
 </body>
 </html>
