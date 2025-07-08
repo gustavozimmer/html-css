@@ -5,3 +5,108 @@
     padding: 0px;
 }
 
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #5D2C80;
+}
+
+main{
+    position: absolute;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.493);
+    background-color: white;
+    border-radius: 20px;
+    height: 470px;
+    width: 230px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#login-config{
+    position: absolute;
+    padding: 5px;
+    top: 36%;
+    width: 220px;
+}
+
+#login-config h1, form{
+    text-align: center;
+}
+
+
+#imagem{
+    border-radius: 20px 20px 0px 0px;
+    width: 230px;
+    height: 155px;
+    background-image: url(../imagens/pequeno.jpg);
+    background-position: bottom right;
+    background-size: cover;
+    
+}
+
+
+.caixa-campo{
+    border-radius: 10px;
+    padding: 0px 5px 0px 5px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    padding-bottom: 10px;
+    height: 30px;
+    width: 210px;
+    background-color: #7d3aad;
+}
+
+#icone-senha{
+    position: absolute;
+    display: block;
+    height: 10px;
+    width: 10px;
+    top: 62%;
+}
+
+#icone-pessoa{
+    position: absolute;
+    display: block;
+    height: 10px;
+    width: 10px;
+    top: 45%;
+}
+
+
+.campo{
+    display: inline-block;
+    border-radius: 10px;
+    padding-left: 5px;
+    margin-top: 1px;
+    padding-top: 3px;
+    background-color: aquamarine;
+    border: none;
+    margin-left: 30px;
+    width: 177px;
+    height: 34px;
+}
+
+#box-enviar{
+    margin-top: 5px;
+    background-color: rgb(50, 167, 128);
+    height: 40px;
+    border-radius: 10px;
+}
+
+#enviar{
+    width: 220px;
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+#enviar:hover{
+    border-radius: 10px
+    ;
+    cursor:pointer;
+    background-color:  rgb(32, 105, 81) ;
+}
