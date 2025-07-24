@@ -1,21 +1,13 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
 html, body{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: rgb(80, 25, 131);
 }
 
 main{
     position: absolute;
-    width: 240px;
-    height: 485px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -24,8 +16,6 @@ main{
 }
 
 #imagem{
-    width: 240px;
-    height: 165px;
     background-image: url(../imagens/pequeno.jpg);
     background-position: bottom right;
     background-size: cover;
@@ -33,125 +23,70 @@ main{
 }
 
 #formulario{
-    width: 240;
-    height: 320px;
     background-color: rgb(255, 255, 255);
     border-radius: 0px 0px 15px 15px;
-}
-
-#caixa-texto{
-    height: 110px;
-    width: 225px;
-    padding: 3px 7px 3px 8px;
 }
 
 #caixa-texto > h1{
     text-align: center;
 }
 
-
 #caixa-pessoa{
     position: relative;
-    margin-left: 5px;
-    margin-top: 3px;
-    width: 230px;
-    height: 44px;
-    background-color:  #7d3aad;
+    background-color:  #7d3aad;   
     border-radius: 7px;
 }
 
 #icone-pessoa{
     position: absolute;
-    height: 24px;
-    width: 18px;
-    top: 50%;
-    left: 10%;
-    transform: translate(-50%, -50%);
 }
 
 #email{
     position: absolute;
-    height: 35px;
-    width: 180px;
-    top: 50%;
-    left: 57%;
-    transform: translate(-50%, -50%);
 }
 
 #iemail{
-    height: 35px;
-    width: 175px;
-    border: none;
-    padding-left: 6px;
     background-color: rgb(125, 230, 195);
     border-radius: 5px;
+    border: none;
 }
-
 
 #caixa-senha{
     position: relative;
-    margin-left: 5px;
-    margin-top: 3px;
-    width: 230px;
-    height: 44px;
     background-color:  #7d3aad;
     border-radius: 7px;
 }
 
 #icone-senha{
     position: absolute;
-    height: 24px;
-    width: 18px;
-    top: 50%;
-    left: 10%;
-    transform: translate(-50%, -50%);
 }
+
 .material-symbols-outlined{
     color: white;    
 }
 
 #senha{
     position: absolute;
-    height: 35px;
-    width: 180px;
-    top: 50%;
-    left: 57%;
-    transform: translate(-50%, -50%);
 }
 
 #isenha{
-    height: 35px;
-    width: 175px;
-    border: none;
-    padding-left: 6px;
     background-color: rgb(125, 230, 195);
     border-radius: 5px;
 }
 
 #enviar{
-    margin-left: 5px;
-    margin-top: 3px;
-    width: 230px;
-    height: 44px;
     background-color: #32A780;
     border-radius: 10px;
 }
 
 #botao-enviar{
     background-color: transparent;
-    height: 43px;
-    width: 229px;
     border: none;
     color: white;
 }
 
 #botao-recup-senha{
-    padding-top: 10px;
     text-align: center;
-    margin-left: 5px;
-    margin-top: 3px;
-    width: 228px;
-    height: 33px;
     border: 1px solid #32A780;
     border-radius: 10px;
 }
