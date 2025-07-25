@@ -5,51 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treino de caixas</title>
     <link rel="stylesheet" href="style/style.css" media="all">
-    <link rel="stylesheet" href="style/celular.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="style/celular.css" media="screen and (max-width: 768px)">
     <link rel="stylesheet" href="style/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
     <link rel="stylesheet" href="style/pc.css" media="screen and (min-width: 992px)">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
-    <main id="caixa-principal">
-        <div id="imagem"></div>
-        <div id="formulario">
-            <div id="caixa-texto">
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-            </div>
-            <form action="login.php">
-                <div id="caixa-pessoa">
-                    <div id="icone-pessoa">
-                        <label for="iemail">
-                        <span id="icone-pessoa" class="material-symbols-outlined">person</span>
-                    </label>
-                    </div>
-                    <div id="email">
-                        <input class="campo" type="email" name="email" id="iemail" required placeholder="Seu e-mail">
-                    </div>
-                </div>
-                <div id="caixa-senha">
-                    <div id="icone-senha">
-                        <label for="isenha">
-                        <span id="icone-senha" class="material-symbols-outlined">key</span>
-                    </label>
-                    </div>
-                    <div id="senha">
-                        <input class="campo" type="password" name="senha" id="isenha" required placeholder="Sua senha" autocomplete="off">
-                    </div>
-                </div>
-                <div id="enviar">
-                    <input type="submit" value="Entrar" id="botao-enviar">
-                </div>
-            </form>
-            <div id="recup-senha">
-                    <a href="#">
-                        <div id="botao-recup-senha">
-                        Esqueci a senha <span id="icone-mail" class="material-symbols-outlined">mail</span></div>
-                    </a>
-            </div>
+    <div id="imagem"></div>
+    <div id="formulario">
+        <div id="caixa-texto">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
         </div>
-    </main>
+        <form action="login.php">
+            <div id="caixa-pessoa">
+                <div id="icone-pessoa">
+                    <label for="iemail">
+                    <span id="icone-pessoa" class="material-symbols-outlined">person</span>
+                </label>
+                </div>
+                <div id="email">
+                    <input class="campo" type="email" name="email" id="iemail" required placeholder="Seu e-mail">
+                </div>
+            </div>
+            <div id="caixa-senha">
+                <div id="icone-senha">
+                    <label for="isenha">
+                    <span id="icone-senha" class="material-symbols-outlined">key</span>
+                </label>
+                </div>
+                <div id="senha">
+                    <input class="campo" type="password" name="senha" id="isenha" required placeholder="Sua senha" autocomplete="off">
+                </div>
+            </div>
+            <div id="enviar">
+                <input type="submit" value="Entrar" id="botao-enviar">
+            </div>
+        </form>
+        <div id="recup-senha">
+                <a href="#">
+                    <div id="botao-recup-senha">
+                        Esqueci a senha <span id="icone-mail" class="material-symbols-outlined">mail</span>
+                    <div>
+                </a>
+        </div>
+    </div>
 </body>
 </html>

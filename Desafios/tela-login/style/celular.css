@@ -1,25 +1,25 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
 
 html, body{
     background-color: rgb(80, 25, 131);
 }
 
-main{
-    width: 240px;
-    height: 485px;
-}
 
 #imagem{
+    position: relative;
     width: 240px;
     height: 165px;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px 15px 0px 0px;
 }
 
 #formulario{
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 240px;
     height: 320px;
 }
