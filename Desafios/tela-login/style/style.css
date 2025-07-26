@@ -5,16 +5,11 @@
     padding: 0px;
 }
 
-html, body{
+html, body, main{
     height: 100vh;
     width: 100vw;
 }
 
-main{
-    position: absolute;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.534);
-
-}
 
 #imagem{
     background-image: url(../imagens/pequeno.jpg);
