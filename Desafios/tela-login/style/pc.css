@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+
+html, body{
+    background-image: linear-gradient(rgb(80, 25, 131), rgba(40, 68, 73, 0.479));
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; 
+    flex-direction: row-reverse;
+}
+
+#imagem {
+    position: relative;
+    width: 20vw;
+    height: 350px;
+    border-radius: 0px 15px 15px 0px ;
+}
+
+#formulario {
+    position: relative;
+    width: 55vw;
+    height: 350px;
+    border-radius: 15px 0px 0px 15px ;
+}
+
+#caixa-texto{
+    height: 70px;
+    width: 53vw;;
+    padding: 10px 7px 10px 7px;
+}
+
+#caixa-pessoa{
+    margin-left: 6px;
+    margin-top: 3px;
+    width: 53vw;
+    height: 44px;
+}
+
+#icone-pessoa{
+    height: 24px;
+    width: 18px;
+    top: 50%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+
+#email{
+    height: 35px;
+    width: 46vw;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+#iemail{
+    height: 35px;
+    width: 46vw;
+    padding-left: 6px;
+    border-radius: 5px;
+}
+
+#caixa-senha{
+    margin-left: 6px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 53vw;
+    height: 44px;
+}
+
+#icone-senha{
+    height: 24px;
+    width: 18px;
+    top: 50%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+
+
+#senha{
+    height: 35px;
+    width: 46vw;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+#isenha{
+    height: 35px;
+    width: 46vw;
+    border: none;
+    padding-left: 6px;
+}
+
+#enviar{
+    margin-left: 5px;
+    margin-top: 15px;
+    width: 53vw;
+    height: 60px;
+
+}
+
+#botao-enviar{
+    height: 60px;
+    width: 53vw;
+}
+
+#botao-recup-senha{
+    padding-top: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 52.8vw;
+    height: 40px;
+}

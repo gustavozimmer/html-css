@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 html, body{
     background-image: linear-gradient(rgb(80, 25, 131), rgba(40, 68, 73, 0.479));
 }
@@ -28,7 +29,7 @@ main {
     height: 290px;
     border-radius: 0px 15px 15px 0px;
 }
-
+        
 
 #caixa-texto{
     height: 70px;
