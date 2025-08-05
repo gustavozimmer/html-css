@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#caixa-inicial{
+    padding: 10px;
+}
+
+#caixa-principal{
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: lightgray;
+}
+
+#caixa-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+
+#sub-caixa-1{
+    flex: 1 1 450px;
+    order: 2;
+}
+
+#sub-caixa-2{
+    display: flex;
+    flex: 1 1 450px;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+}
+
+#caixa-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#sub-caixa-3{
+    flex: 1 1 450px;
+}
+
+#sub-caixa-4{
+    display: flex;
+    flex: 1 1 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo-normal{
+    padding: 10px;
+}
